@@ -1,0 +1,29 @@
+{
+    "name": "gethtml",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "package": "electron-packager . test  --arch=x64  --out=./out --asar --app-version=0.0.1 --overwrite --ignore=node_modules",
+        "start": "node fileConvet.js && npm run-script package && npm run fileOperate",
+        "fileConvet": "node fileConvet.js",
+        "fileOperate": "node fileOperate.js",
+        "oldFileConvet": "node oldFileConvet",
+        "startOldPro": "node oldFileConvet.js && npm run-script package && npm run fileOperate"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "async": "^3.0.1",
+        "clean-css": "^4.2.1",
+        "electron": "^5.0.3",
+        "electron-packager": "^13.1.1",
+        "fs": "0.0.1-security",
+        "http": "0.0.0",
+        "path": "^0.12.7",
+        "uglify-es": "^3.3.9"
+    },
+    "devDependencies": {
+        "webpack-cli": "^3.3.6"
+    }
+}
