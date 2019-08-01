@@ -7,7 +7,7 @@ npm install
 npm run start
 npm run fileOperate
 npm run startOldPro
-
+npm run fileConvet
 ```
 ### 3、输出在了out文件夹
 ### 4、深入学习 [electron](https://electronjs.org/docs)
