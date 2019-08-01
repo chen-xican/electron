@@ -6,6 +6,7 @@
 npm install
 npm run start
 npm run fileOperate
+npm run startOldPro
 
 ```
 ### 3、输出在了out文件夹
